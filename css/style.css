@@ -136,3 +136,33 @@ img {
        max-width: 768px;
    }
  }
+
+ @media screen and (max-width:480px) {
+    .container {
+        max-width: 480px;
+    }
+
+     .row {
+         display: block;
+     }
+
+     .lessons .col {
+         width: 100%;
+     }
+
+     .steps .col {
+         width: 100%;
+     }
+
+     .why-us .col-left {
+         width: 100%;
+     }
+
+     .why-us .col-right {
+        width: 100%;
+    }
+
+    .col {
+        margin-bottom: 50px;
+    }
+ }
